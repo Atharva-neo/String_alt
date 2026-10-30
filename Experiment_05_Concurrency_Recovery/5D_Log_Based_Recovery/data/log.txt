@@ -1,0 +1,14 @@
+# Log of Experiment 5D (initial values: A = 1000, B = 2000, C = 700, D = 500)
+# The PDF lists "<checkpoint {T2}> after <T2, start>": T2 started just before the checkpoint, so <T2, start> is written first.
+<T1, start>
+<T1, A, 1000, 950>
+<T1, B, 2000, 2050>
+<T1, commit>
+<T2, start>
+<checkpoint {T2}>
+<T2, C, 700, 600>
+<T3, start>
+<T3, D, 500, 800>
+<T3, commit>
+<T2, A, 950, 900>
+# --- system crash ---

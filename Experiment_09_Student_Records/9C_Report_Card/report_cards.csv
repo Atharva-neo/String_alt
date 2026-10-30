@@ -1,0 +1,5 @@
+_id,name,dept,semester,sgpa,result,remark
+"S101","Aditya Pawar","AIML","3","7.5","Pass","Detained"
+"S102","Neha Gaikwad","AIML","3","9.5","Pass","Eligible"
+"S103","Omkar Salunkhe","CSE","5","8","Pass","Eligible"
+"S104","Priya Mane","AIML","3","0","Fail","Detained"

@@ -1,0 +1,14 @@
+# Task 11: the same log, but T2 managed to write <T2, commit> before the crash
+<T1, start>
+<T1, A, 1000, 950>
+<T1, B, 2000, 2050>
+<T1, commit>
+<T2, start>
+<checkpoint {T2}>
+<T2, C, 700, 600>
+<T3, start>
+<T3, D, 500, 800>
+<T3, commit>
+<T2, A, 950, 900>
+<T2, commit>
+# --- system crash ---

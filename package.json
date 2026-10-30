@@ -1,0 +1,22 @@
+{
+  "name": "dbms-lab-external",
+  "version": "1.0.0",
+  "description": "DBMS Lab External preparation kit - Node.js parts (Experiment 8D REST API, 8F MySQL+MongoDB, mongosh test shim)",
+  "private": true,
+  "license": "UNLICENSED",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "api": "node Experiment_08_Database_Connectivity_ML/8D_Node_REST_API/server.js",
+    "count": "node Experiment_08_Database_Connectivity_ML/8F_MySQL_and_MongoDB_App/node_count.js",
+    "shim:selftest": "node tools/mongosh_shim_selftest.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0",
+    "mysql2": "^3.11.0"
+  },
+  "devDependencies": {
+    "mingo": "^6.5.0"
+  }
+}

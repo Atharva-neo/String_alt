@@ -1,0 +1,9 @@
+# Python packages for the whole repository (Python 3.10+; developed on 3.14)
+mysql-connector-python>=8.0      # Experiments 4D/5A-5D (demos), 8E, 8F
+pymongo>=4.6                     # Experiments 8, 10
+pandas>=2.0                      # Experiment 8
+scikit-learn>=1.3                # Experiment 8A-8C
+streamlit>=1.50                  # Experiment 10 dashboard (uses width="stretch")
+plotly>=5.18                     # Experiment 10 dashboard
+neo4j>=5.14                      # Experiment 10 live graph loader
+mongomock>=4.1                   # OPTIONAL test aid: run Experiment 8/10 Python code without a MongoDB server (USE_MOCK_MONGO=1)
